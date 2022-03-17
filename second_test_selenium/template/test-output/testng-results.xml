@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11295" started-at="2022-03-17T11:58:20Z" finished-at="2022-03-17T11:58:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11295" started-at="2022-03-17T11:58:20Z" finished-at="2022-03-17T11:58:31Z">
+      <class name="tests.ZadatakSelenium">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="initialize" is-config="true" duration-ms="2038" started-at="2022-03-17T11:58:18Z" finished-at="2022-03-17T11:58:20Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newUserRegistrationTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="newUserRegistrationTest" duration-ms="2170" started-at="2022-03-17T11:58:20Z" finished-at="2022-03-17T11:58:22Z">
+        </test-method> <!-- newUserRegistrationTest -->
+        <test-method status="PASS" signature="loginNewUserTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="loginNewUserTest" duration-ms="777" started-at="2022-03-17T11:58:22Z" depends-on-methods="tests.ZadatakSelenium.newUserRegistrationTest" finished-at="2022-03-17T11:58:23Z">
+        </test-method> <!-- loginNewUserTest -->
+        <test-method status="PASS" signature="adminLoginTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="adminLoginTest" duration-ms="1145" started-at="2022-03-17T11:58:23Z" depends-on-methods="tests.ZadatakSelenium.loginNewUserTest" finished-at="2022-03-17T11:58:24Z">
+        </test-method> <!-- adminLoginTest -->
+        <test-method status="PASS" signature="activacionNewUser()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="activacionNewUser" duration-ms="1024" started-at="2022-03-17T11:58:24Z" depends-on-methods="tests.ZadatakSelenium.adminLoginTest" finished-at="2022-03-17T11:58:25Z">
+        </test-method> <!-- activacionNewUser -->
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="logOutTest" duration-ms="263" started-at="2022-03-17T11:58:25Z" depends-on-methods="tests.ZadatakSelenium.activacionNewUser" finished-at="2022-03-17T11:58:25Z">
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="loginNewUserTestSecondTime()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="loginNewUserTestSecondTime" duration-ms="1216" started-at="2022-03-17T11:58:25Z" depends-on-methods="tests.ZadatakSelenium.logOutTest" finished-at="2022-03-17T11:58:26Z">
+        </test-method> <!-- loginNewUserTestSecondTime -->
+        <test-method status="PASS" signature="addNewExamPeriodTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="addNewExamPeriodTest" duration-ms="1887" started-at="2022-03-17T11:58:26Z" depends-on-methods="tests.ZadatakSelenium.loginNewUserTestSecondTime" finished-at="2022-03-17T11:58:28Z">
+        </test-method> <!-- addNewExamPeriodTest -->
+        <test-method status="PASS" signature="logOutSecondTimeTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="logOutSecondTimeTest" duration-ms="290" started-at="2022-03-17T11:58:28Z" depends-on-methods="tests.ZadatakSelenium.addNewExamPeriodTest" finished-at="2022-03-17T11:58:28Z">
+        </test-method> <!-- logOutSecondTimeTest -->
+        <test-method status="PASS" signature="adminLoginSecondTimeTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="adminLoginSecondTimeTest" duration-ms="1267" started-at="2022-03-17T11:58:28Z" depends-on-methods="tests.ZadatakSelenium.logOutSecondTimeTest" finished-at="2022-03-17T11:58:30Z">
+        </test-method> <!-- adminLoginSecondTimeTest -->
+        <test-method status="PASS" signature="deleteNewUserTest()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="deleteNewUserTest" duration-ms="1176" started-at="2022-03-17T11:58:30Z" depends-on-methods="tests.ZadatakSelenium.adminLoginSecondTimeTest" finished-at="2022-03-17T11:58:31Z">
+        </test-method> <!-- deleteNewUserTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:tests.ZadatakSelenium@6a2bcfcb]" name="quitDriver" is-config="true" duration-ms="86" started-at="2022-03-17T11:58:31Z" finished-at="2022-03-17T11:58:31Z">
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.ZadatakSelenium -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
